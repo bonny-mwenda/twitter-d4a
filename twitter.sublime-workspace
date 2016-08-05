@@ -1,0 +1,557 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"str",
+				"str_nums	statement"
+			],
+			[
+				"in",
+				"individual_nums	function"
+			],
+			[
+				"hea",
+				"navbar-header"
+			],
+			[
+				"o",
+				"ol	Tag"
+			],
+			[
+				"bl",
+				"block"
+			],
+			[
+				"he",
+				"header	Tag"
+			],
+			[
+				"d",
+				"dd	Tag"
+			],
+			[
+				"di",
+				"div	Tag"
+			],
+			[
+				"re",
+				"relationship"
+			],
+			[
+				"logi",
+				"login_user	import"
+			],
+			[
+				"log",
+				"login_manager	statement"
+			],
+			[
+				"password_",
+				"password_hash"
+			],
+			[
+				"de",
+				"decrypt_password	function"
+			],
+			[
+				"user",
+				"username"
+			],
+			[
+				"sec",
+				"secret_key"
+			],
+			[
+				"e",
+				"EqualTo"
+			],
+			[
+				"vali",
+				"validate_on_submit"
+			],
+			[
+				"login_",
+				"login_required	import"
+			],
+			[
+				"ur",
+				"url_for	import"
+			],
+			[
+				"nex",
+				"next_is_valid"
+			],
+			[
+				"login",
+				"login_required	import"
+			],
+			[
+				"co",
+				"Comment	class"
+			],
+			[
+				"us",
+				"username"
+			],
+			[
+				"fi",
+				"filter_by"
+			],
+			[
+				"Use",
+				"UserMixin"
+			],
+			[
+				"te",
+				"textarea	Tag"
+			],
+			[
+				"pass",
+				"password_hash	param"
+			],
+			[
+				"pas",
+				"password_hash	param"
+			],
+			[
+				"logout",
+				"logout_user	import"
+			],
+			[
+				"v",
+				"validate"
+			],
+			[
+				"a",
+				"abort"
+			],
+			[
+				"ne",
+				"next_is_valid"
+			],
+			[
+				"Log",
+				"LoginManager"
+			],
+			[
+				"vot",
+				"vote"
+			],
+			[
+				"Su",
+				"Suggestion	class"
+			],
+			[
+				"comm",
+				"commit"
+			],
+			[
+				"sugge",
+				"suggestion"
+			],
+			[
+				"comme",
+				"commented_by"
+			],
+			[
+				"p",
+				"posted_by"
+			],
+			[
+				"flas",
+				"flash"
+			],
+			[
+				"Comment",
+				"CommentForm	class"
+			],
+			[
+				"suggest",
+				"SuggestionForm	class"
+			],
+			[
+				"Co",
+				"CommentForm	class"
+			],
+			[
+				"uni",
+				"unique"
+			],
+			[
+				"SQL",
+				"SQLAlchemy"
+			],
+			[
+				"ari",
+				"arith_true_so_far"
+			],
+			[
+				"g",
+				"geom_true_so_far"
+			],
+			[
+				"ar",
+				"arith_true_so_far"
+			],
+			[
+				"strin",
+				"string_length"
+			],
+			[
+				"food",
+				"food2"
+			],
+			[
+				"ge",
+				"getNotes"
+			],
+			[
+				"get",
+				"getNotes"
+			],
+			[
+				"not",
+				"note2"
+			],
+			[
+				"note",
+				"note_id"
+			],
+			[
+				"fizz",
+				"fizzbuzz"
+			],
+			[
+				"Not",
+				"NotesApplication"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Anaconda Python Builder",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Anaconda Python Builder",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 96.0,
+		"last_filter": "insta",
+		"selected_items":
+		[
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"package",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 392.0
+	},
+	"console":
+	{
+		"height": 139.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) "
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/bonny/git-repos/d4a-labs/twitter"
+	],
+	"file_history":
+	[
+		"/home/bonny/git-repos/d4a-labs/Saikle/css/style.css",
+		"/home/bonny/git-repos/d4a-labs/Web Templates/sept-free-bootstrap-3-theme/index.html",
+		"/home/bonny/git-repos/d4a-labs/Web Templates/sept-free-bootstrap-3-theme/css/style.css",
+		"/home/bonny/git-repos/d4a-labs/Web Templates/sept-free-bootstrap-3-theme/js/script.js",
+		"/home/bonny/git-repos/d4a-labs/Web Templates/Agency/index.html",
+		"/home/bonny/git-repos/d4a-labs/Web Templates/Agency/js/agency.js",
+		"/home/bonny/git-repos/d4a-labs/Ruby/notes.txt",
+		"/home/bonny/git-repos/d4a-labs/Saikle/js/easing.js",
+		"/home/bonny/Downloads/web/index.html",
+		"/home/bonny/git-repos/d4a-labs/Web Templates/sept-free-bootstrap-3-theme/js/jquery.nicescroll.min.js",
+		"/home/bonny/git-repos/d4a-labs/Ruby/fibonacci.rb",
+		"/home/bonny/git-repos/d4a-labs/Ruby/factorial.rb",
+		"/media/bonny/Bonny/Projects/Programming/Python/Andela_Fibonacci.py",
+		"/home/bonny/.config/sublime-text-3/Packages/User/EnvironmentSettings.sublime-settings",
+		"/home/bonny/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings",
+		"/home/bonny/git-repos/d4a-labs/Saikle/sports.html",
+		"/home/bonny/git-repos/d4a-labs/Saikle/wedding.html",
+		"/home/bonny/git-repos/d4a-labs/Saikle/fashion.html",
+		"/home/bonny/git-repos/d4a-labs/Saikle/agriculture.html",
+		"/home/bonny/git-repos/bc-8-suggestion-box/templates/index.html",
+		"/home/bonny/git-repos/heroku-deploy/primes.py",
+		"/home/bonny/git-repos/heroku-deploy/is_prime.py",
+		"/home/bonny/git-repos/bc-8-suggestion-box/models.py",
+		"/home/bonny/git-repos/bc-8-suggestion-box/templates/comment.html",
+		"/home/bonny/git-repos/bc-8-suggestion-box/forms.py",
+		"/home/bonny/git-repos/bc-8-suggestion-box/templates/login.html",
+		"/home/bonny/git-repos/bc-8-suggestion-box/templates/register.html",
+		"/home/bonny/git-repos/bc-8-suggestion-box/templates/suggest.html",
+		"/home/bonny/git-repos/bc-8-suggestion-box/templates/user_comments.html",
+		"/home/bonny/git-repos/bc-8-suggestion-box/templates/base.html",
+		"/home/bonny/Documents/PythonProjects/app.py",
+		"/home/bonny/Downloads/bootstrap-3.3.6-dist/css/bootstrap-theme.css",
+		"/home/bonny/Downloads/bootstrap-3.3.6-dist/css/bootstrap.css",
+		"/home/bonny/Downloads/startbootstrap-agency-1.1.0/index.html",
+		"/home/bonny/git-repos/bc-8-suggestion-box/app.py",
+		"/home/bonny/git-repos/bc-8-library-application/config.py",
+		"/home/bonny/git-repos/bc-8-library-application/manage.py",
+		"/home/bonny/git-repos/bc-8-library-application/app/templates/signup.html",
+		"/home/bonny/git-repos/bc-8-library-application/app/models.py",
+		"/home/bonny/git-repos/bc-8-library-application/README.md",
+		"/home/bonny/Documents/dashboard/index.html",
+		"/home/bonny/git-repos/bc-8-suggestion-box/templates/view_all_comments.html",
+		"/home/bonny/git-repos/bc-8-suggestion-box/templates/view_all_suggestions.html",
+		"/home/bonny/git-repos/bc-8-suggestion-box/base.html",
+		"/home/bonny/git-repos/bc-8-suggestion-box/templates/user_suggestions.html",
+		"/home/bonny/git-repos/bc-8-suggestion-box/Procfile",
+		"/home/bonny/git-repos/bc-8-suggestion-box/templates/users.html",
+		"/home/bonny/git-repos/bc-8-suggestion-box/templates/_formhelpers.html",
+		"/home/bonny/git-repos/bc-8-suggestion-box/routes.py",
+		"/home/bonny/git-repos/bc-8-suggestion-box/config.py",
+		"/home/bonny/git-repos/notes-app/getTable.py",
+		"/home/bonny/git-repos/notes-app/dbase.py",
+		"/home/bonny/git-repos/notes-app/__init__.py",
+		"/home/bonny/git-repos/notes-app/notesApplication.py",
+		"/home/bonny/Documents/PythonProjects/AndelaNotes",
+		"/home/bonny/git-repos/notes-app/notes.py",
+		"/home/bonny/git-repos/notes-app/Procfile",
+		"/home/bonny/Documents/PythonProjects/test.py",
+		"/home/bonny/Documents/PythonProjects/AndelaProject.py",
+		"/home/bonny/git-repos/Andela-Boot-Camp08/day_6/is_prime.py",
+		"/home/bonny/git-repos/heroku-deploy/Procfile",
+		"/home/bonny/git-repos/heroku-deploy/procfile",
+		"/home/bonny/AndelaBootcamp8/primes.py",
+		"/home/bonny/AndelaBootcamp8/day_6/__init__.py",
+		"/home/bonny/Documents/PythonProjects/classCar.py",
+		"/home/bonny/Documents/AndelaTest/primeChecker.py",
+		"/home/bonny/Documents/AndelaTest/Andela assignments",
+		"/home/bonny/Documents/PythonProjects/arithmetic-prog.py",
+		"/home/bonny/git-repos/Andela-Boot-Camp08/notesApplication.py",
+		"/home/bonny/Documents/AndelaNotes",
+		"/home/bonny/Documents/PythonProjects/cmpList.py",
+		"/home/bonny/Documents/PythonProjects/stringLength.py",
+		"/home/bonny/Documents/AndelaTest/dataTypes.py",
+		"/home/bonny/git-repos/Andela-Boot-Camp08/kula-manenos/menu.py",
+		"/home/bonny/git-repos/Andela-Boot-Camp08/kula-manenos/user.py",
+		"/home/bonny/git-repos/Andela-Boot-Camp08/kula-manenos/food.py",
+		"/home/bonny/git-repos/Andela-Boot-Camp08/test_fizzbuzz.py",
+		"/home/bonny/Documents/AndelaTest/trials.py",
+		"/home/bonny/git-repos/Andela-Boot-Camp08/fizzbuzz.py",
+		"/home/bonny/git-repos/Andela-Boot-Camp08/primeNumbers.py",
+		"/home/bonny/git-repos/Andela-Boot-Camp08/fibonacciNumbers.py",
+		"/home/bonny/Documents/Andela-Boot-Camp/hello.py",
+		"/home/bonny/Documents/Andela-Boot-Camp/world.py",
+		"/home/bonny/Documents/sublime.py"
+	],
+	"find":
+	{
+		"height": 27.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"scroll",
+			"page",
+			"scroll",
+			"visit us",
+			"testimonials",
+			"Testimonials",
+			"testimonials",
+			"special",
+			"left",
+			"h6",
+			"wedding.html",
+			"section",
+			"e-commerce",
+			"ecommerce",
+			"img",
+			"i"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 82.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 100.0
+	},
+	"pinned_build_system": "",
+	"project": "twitter.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"~/Documents/PythonProjects/wordCount.py"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 126.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

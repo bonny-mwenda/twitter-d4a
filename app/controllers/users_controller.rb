@@ -9,9 +9,9 @@ class UsersController < ApplicationController
     apikey   = "4427406fe6c4d0f47424c2b3d0960cf3d982fcb2e7227b13f3f94696b3980cfe";
     # Specify the numbers that you want to send to in a comma-separated list
     # Please ensure you include the country code (+254 for Kenya in this case, +256 for Uganda)
-    to      = "+254772376746";
+    to      = "+254715300570";
     # And of course we want our recipients to know what we really do
-    message = "Murrrder is coming your way"
+    message = "Testing API"
     # Create a new instance of our awesome gateway class
     gateway = AfricasTalkingGateway.new(username, apikey)
     # Any gateway error will be captured by our custom Exception class below,

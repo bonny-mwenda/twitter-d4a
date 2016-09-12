@@ -1,5 +1,35 @@
 class UsersController < ApplicationController
 	before_action :set_user, only: [:show, :edit, :update, :destroy]
+
+  def send_message
+    # Include the helper gateway class
+    require 'AfricasTalkingGateway'
+    # Specify your login credentials
+    username = "b-mwenda";
+    apikey   = "4427406fe6c4d0f47424c2b3d0960cf3d982fcb2e7227b13f3f94696b3980cfe";
+    # Specify the numbers that you want to send to in a comma-separated list
+    # Please ensure you include the country code (+254 for Kenya in this case, +256 for Uganda)
+    to      = "+254772376746";
+    # And of course we want our recipients to know what we really do
+    message = "Murrrder is coming your way"
+    # Create a new instance of our awesome gateway class
+    gateway = AfricasTalkingGateway.new(username, apikey)
+    # Any gateway error will be captured by our custom Exception class below,
+    # so wrap the call in a try-catch block
+    begin
+      # Thats it, hit send and we'll take care of the rest.
+      reports = gateway.sendMessage(to, message)
+      
+      reports.each {|x|
+        # status is either "Success" or "error message"
+        puts 'number=' + x.number + ';status=' + x.status + ';messageId=' + x.messageId + ';cost=' + x.cost
+      }
+    rescue AfricasTalkingGatewayException => ex
+      puts 'Encountered an error: ' + ex.message
+    end
+    # DONE!
+  end
+
   def show
   	@user = User.find(params[:id])
   	@tweets = Tweet.where(user_id: params[:id])

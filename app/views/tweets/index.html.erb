@@ -1,0 +1,30 @@
+<h1>Hey <%= @user.username %>!</h1>
+<h4>Your Tweets</h4>
+
+<%= link_to 'New Tweet', new_user_tweet_path %>
+
+<table class="table table-hover table-striped">
+  <thead>
+    <tr>
+      <th>#</th>
+      <th>Status</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @tweets.each do |tweet| %>
+      <tr>
+        <td><%= tweet.id %></td>
+        <td><%= tweet.status %></td>
+        <td><%= link_to 'show', [@user, tweet] %></td>
+        <td><%= link_to 'Edit', edit_user_tweet_path(@user, tweet) %></td>
+        <td><%= link_to 'Destroy', [tweet.user, tweet], method: :delete, data: {confirm: 'This tweet never happened, yes?'} %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+

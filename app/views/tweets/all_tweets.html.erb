@@ -1,0 +1,24 @@
+<h1> Tweets Stream</h1>
+
+<table class="table table-hover table-striped">
+  <thead>
+    <tr>
+      <th>User</th>
+      <th>Status</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @all_tweets.each do |tweet| %>
+      <tr>
+        <td><%= tweet.user_id %></td>
+        <td><%= tweet.status %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+

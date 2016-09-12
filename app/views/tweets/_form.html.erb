@@ -1,0 +1,20 @@
+<%= form_for([@user, @tweet]) do |f| %>
+  <% if @tweet.errors.any? %>
+    <div class="alert alert-danger">
+      <p><%= pluralize(@tweet.errors.count, "error") %> prohibited this tweet from being saved:</p>
+      <ul>
+      <% @tweet.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div>
+    <%= f.label :status %>
+    <%= f.text_area :status %>
+  </div>
+  <div>
+    <%= f.submit %>
+  </div>
+<% end %>

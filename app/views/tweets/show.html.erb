@@ -1,19 +1,10 @@
-<h1>User Tweets</h1>
-<table class="table table-striped table-hover">
-	<thead>
-		<tr>
-			<th>User</th>
-			<th>Status</th>
-			<th>Date Created</th>
-		</tr>
-	</thead>
-	<tbody>
-	<% @tweets.each do |tweet| %>
-		<tr>
-			<th><%= tweet.user_id %></th>
-			<th><%= tweet.status %></th>
-			<th><%= tweet.created_at %></th>
-		</tr>
-		<% end %>
-	</tbody>
-</table>
+<h1>Tweet <%= @tweet.id %></h1>
+
+<strong>Status:</strong><br>
+<p><%= @tweet.status %></p>
+
+<strong>Created At</strong>
+<p><%= @tweet.created_at %></p>
+
+<%= link_to 'Back', user_tweets_path %> |
+<%= link_to 'Edit', edit_user_tweet_url(@user, @tweet) %>

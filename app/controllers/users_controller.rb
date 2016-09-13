@@ -1,13 +1,12 @@
 class UsersController < ApplicationController
 	before_action :set_user, only: [:show, :edit, :update, :destroy]
 
-# Include Africa's Talking helper gateway class
-require 'AfricasTalkingGateway'
-# Specify login credentials
-username = "b-mwenda";
-apikey   = "4427406fe6c4d0f47424c2b3d0960cf3d982fcb2e7227b13f3f94696b3980cfe";
-
-  def send_message
+  def send_message_without_id
+    # Include Africa's Talking helper gateway class
+    # require 'AfricasTalkingGateway'
+    # Specify login credentials
+    username = "b-mwenda";
+    apikey   = "4427406fe6c4d0f47424c2b3d0960cf3d982fcb2e7227b13f3f94696b3980cfe";
     # Specify the numbers that you want to send to in a comma-separated list
     # Please ensure you include the country code (+254 for Kenya in this case, +256 for Uganda)
     to      = "+254715300570";
@@ -31,11 +30,11 @@ apikey   = "4427406fe6c4d0f47424c2b3d0960cf3d982fcb2e7227b13f3f94696b3980cfe";
     # DONE!
   end
 
-  def send_message_with_id
+  def send_message
     # Sending Messages using sender id/short code
-    # require './AfricasTalkingGateway'
-    # username = "MyAfricasTalkingUsername";
-    # apikey   = "MyAfricasTalkingAPIKey";
+    require 'AfricasTalkingGateway'
+    username = "b-mwenda";
+    apikey   = "4427406fe6c4d0f47424c2b3d0960cf3d982fcb2e7227b13f3f94696b3980cfe";
     to      = "+254715300570";
     message = "Ume Saskia Saikle?"
     # Specify your AfricasTalking shortCode or sender id

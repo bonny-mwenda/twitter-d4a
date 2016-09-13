@@ -3,7 +3,7 @@ class UsersController < ApplicationController
 
   def send_message
     # Include Africa's Talking helper gateway class
-    # require 'AfricasTalkingGateway'
+    require 'AfricasTalkingGateway'
     # Specify login credentials
     username = "b-mwenda";
     apikey   = "4427406fe6c4d0f47424c2b3d0960cf3d982fcb2e7227b13f3f94696b3980cfe";

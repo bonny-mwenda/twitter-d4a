@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-	get 'users/send_message_with_id'
+	get 'users/send_message'
 	resources :users  do
 		resources :tweets
 	end

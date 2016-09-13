@@ -1,12 +1,13 @@
 class UsersController < ApplicationController
 	before_action :set_user, only: [:show, :edit, :update, :destroy]
 
+# Include Africa's Talking helper gateway class
+require 'AfricasTalkingGateway'
+# Specify login credentials
+username = "b-mwenda";
+apikey   = "4427406fe6c4d0f47424c2b3d0960cf3d982fcb2e7227b13f3f94696b3980cfe";
+
   def send_message
-    # Include the helper gateway class
-    require 'AfricasTalkingGateway'
-    # Specify your login credentials
-    username = "b-mwenda";
-    apikey   = "4427406fe6c4d0f47424c2b3d0960cf3d982fcb2e7227b13f3f94696b3980cfe";
     # Specify the numbers that you want to send to in a comma-separated list
     # Please ensure you include the country code (+254 for Kenya in this case, +256 for Uganda)
     to      = "+254715300570";
@@ -22,6 +23,29 @@ class UsersController < ApplicationController
       
       reports.each {|x|
         # status is either "Success" or "error message"
+        puts 'number=' + x.number + ';status=' + x.status + ';messageId=' + x.messageId + ';cost=' + x.cost
+      }
+    rescue AfricasTalkingGatewayException => ex
+      puts 'Encountered an error: ' + ex.message
+    end
+    # DONE!
+  end
+
+  def send_message_with_id
+    # Sending Messages using sender id/short code
+    # require './AfricasTalkingGateway'
+    # username = "MyAfricasTalkingUsername";
+    # apikey   = "MyAfricasTalkingAPIKey";
+    to      = "+254715300570";
+    message = "Ume Saskia Saikle?"
+    # Specify your AfricasTalking shortCode or sender id
+    sender = "Saikle"
+    gateway = AfricasTalkingGateway.new(username, apikey)
+    begin
+      # Thats it, hit send and we'll take care of the rest.
+      reports = gateway.sendMessage(to, message, sender)
+      
+      reports.each {|x|
         puts 'number=' + x.number + ';status=' + x.status + ';messageId=' + x.messageId + ';cost=' + x.cost
       }
     rescue AfricasTalkingGatewayException => ex
